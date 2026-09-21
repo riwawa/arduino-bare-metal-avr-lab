@@ -1,0 +1,27 @@
+# Build artifacts
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.eep
+
+# Dependency/build folders
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# C/C++ tooling
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.swp
+*~
