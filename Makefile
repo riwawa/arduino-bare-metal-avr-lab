@@ -5,7 +5,7 @@
 MCU        ?= atmega328p
 F_CPU      ?= 16000000UL
 PROGRAMMER ?= arduino
-PORT       ?= /dev/cu.usbserial-1140
+PORT       ?= /dev/cu.usbserial-130
 BAUD       ?= 115200
 
 CC      = avr-gcc
